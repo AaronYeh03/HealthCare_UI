@@ -8,7 +8,7 @@ for contract_num in range(30):
 
 main_window = tk.Tk()
 main_window.title('my window')
-main_window.geometry('200x700')
+main_window.geometry('200x650')
 
 user_num_label = tk.Label(main_window, bg='gray', width=20, text='使用者編號', font=("Arial", 11, "bold"))
 user_num_label.pack()
@@ -57,6 +57,118 @@ def checkbutton_used_5():
         choose_contracts[4] = ""
 
 
+def checkbutton_used_6():
+    if checked_state_6.get() == 1:
+        choose_contracts[5] = contract_list[5]
+    if checked_state_6.get() == 0:
+        choose_contracts[5] = ""
+
+
+def checkbutton_used_7():
+    if checked_state_7.get() == 1:
+        choose_contracts[6] = contract_list[6]
+    if checked_state_7.get() == 0:
+        choose_contracts[6] = ""
+
+
+def checkbutton_used_8():
+    if checked_state_8.get() == 1:
+        choose_contracts[7] = contract_list[7]
+    if checked_state_8.get() == 0:
+        choose_contracts[7] = ""
+
+
+def checkbutton_used_9():
+    if checked_state_9.get() == 1:
+        choose_contracts[8] = contract_list[8]
+    if checked_state_9.get() == 0:
+        choose_contracts[8] = ""
+
+
+def checkbutton_used_10():
+    if checked_state_10.get() == 1:
+        choose_contracts[9] = contract_list[9]
+    if checked_state_10.get() == 0:
+        choose_contracts[9] = ""
+
+
+def checkbutton_used_11():
+    if checked_state_11.get() == 1:
+        choose_contracts[10] = contract_list[10]
+    if checked_state_11.get() == 0:
+        choose_contracts[10] = ""
+
+
+def checkbutton_used_12():
+    if checked_state_12.get() == 1:
+        choose_contracts[11] = contract_list[11]
+    if checked_state_12.get() == 0:
+        choose_contracts[11] = ""
+
+
+def checkbutton_used_13():
+    if checked_state_13.get() == 1:
+        choose_contracts[12] = contract_list[12]
+    if checked_state_13.get() == 0:
+        choose_contracts[12] = ""
+
+
+def checkbutton_used_14():
+    if checked_state_14.get() == 1:
+        choose_contracts[13] = contract_list[13]
+    if checked_state_14.get() == 0:
+        choose_contracts[13] = ""
+
+
+def checkbutton_used_15():
+    if checked_state_15.get() == 1:
+        choose_contracts[14] = contract_list[14]
+    if checked_state_15.get() == 0:
+        choose_contracts[14] = ""
+
+
+def checkbutton_used_16():
+    if checked_state_16.get() == 1:
+        choose_contracts[15] = contract_list[15]
+    if checked_state_16.get() == 0:
+        choose_contracts[15] = ""
+
+
+def checkbutton_used_17():
+    if checked_state_17.get() == 1:
+        choose_contracts[16] = contract_list[16]
+    if checked_state_17.get() == 0:
+        choose_contracts[16] = ""
+
+
+def checkbutton_used_18():
+    if checked_state_18.get() == 1:
+        choose_contracts[17] = contract_list[17]
+    if checked_state_18.get() == 0:
+        choose_contracts[17] = ""
+
+
+def checkbutton_used_19():
+    if checked_state_19.get() == 1:
+        choose_contracts[18] = contract_list[18]
+    if checked_state_19.get() == 0:
+        choose_contracts[18] = ""
+
+
+def checkbutton_used_20():
+    if checked_state_20.get() == 1:
+        choose_contracts[19] = contract_list[19]
+    if checked_state_20.get() == 0:
+        choose_contracts[19] = ""
+
+
+def checkbutton_used_21():
+    if checked_state_21.get() == 1:
+        choose_contracts[20] = contract_list[20]
+    if checked_state_21.get() == 0:
+        choose_contracts[20] = ""
+
+
 checked_state_1 = tk.IntVar()  # variable to hold on to checked state, 0 is off, 1 is on.
 checkbutton_1 = tk.Checkbutton(text="基本身體清潔", variable=checked_state_1, command=checkbutton_used_1)
 checked_state_1.get()
@@ -82,6 +194,86 @@ checkbutton_5 = tk.Checkbutton(text="餐食照顧", variable=checked_state_5, co
 checked_state_5.get()
 checkbutton_5.pack()
 
+checked_state_6 = tk.IntVar()
+checkbutton_6 = tk.Checkbutton(text="協助沐浴", variable=checked_state_6, command=checkbutton_used_6)
+checked_state_6.get()
+checkbutton_6.pack()
+
+checked_state_7 = tk.IntVar()
+checkbutton_7 = tk.Checkbutton(text="協助沐浴及洗頭", variable=checked_state_7, command=checkbutton_used_7)
+checked_state_7.get()
+checkbutton_7.pack()
+
+checked_state_8 = tk.IntVar()
+checkbutton_8 = tk.Checkbutton(text="足部照護", variable=checked_state_8, command=checkbutton_used_8)
+checked_state_8.get()
+checkbutton_8.pack()
+
+checked_state_9 = tk.IntVar()
+checkbutton_9 = tk.Checkbutton(text="到宅沐浴車服務", variable=checked_state_9, command=checkbutton_used_9)
+checked_state_9.get()
+checkbutton_9.pack()
+
+checked_state_10 = tk.IntVar()
+checkbutton_10 = tk.Checkbutton(text="翻身拍背", variable=checked_state_10, command=checkbutton_used_10)
+checked_state_10.get()
+checkbutton_10.pack()
+
+checked_state_11 = tk.IntVar()
+checkbutton_11 = tk.Checkbutton(text="肢體關節活動", variable=checked_state_11, command=checkbutton_used_11)
+checked_state_11.get()
+checkbutton_11.pack()
+
+checked_state_12 = tk.IntVar()
+checkbutton_12 = tk.Checkbutton(text="協助上下樓梯", variable=checked_state_12, command=checkbutton_used_12)
+checked_state_12.get()
+checkbutton_12.pack()
+
+checked_state_13 = tk.IntVar()
+checkbutton_13 = tk.Checkbutton(text="陪同外出", variable=checked_state_13, command=checkbutton_used_13)
+checked_state_13.get()
+checkbutton_13.pack()
+
+checked_state_14 = tk.IntVar()
+checkbutton_14 = tk.Checkbutton(text="陪同就醫", variable=checked_state_14, command=checkbutton_used_14)
+checked_state_14.get()
+checkbutton_14.pack()
+
+checked_state_15 = tk.IntVar()
+checkbutton_15 = tk.Checkbutton(text="家務協助", variable=checked_state_15, command=checkbutton_used_15)
+checked_state_15.get()
+checkbutton_15.pack()
+
+checked_state_16 = tk.IntVar()
+checkbutton_16 = tk.Checkbutton(text="代購或代領或代送服務", variable=checked_state_16, command=checkbutton_used_16)
+checked_state_16.get()
+checkbutton_16.pack()
+
+checked_state_17 = tk.IntVar()
+checkbutton_17 = tk.Checkbutton(text="協助執行輔助性醫療", variable=checked_state_17, command=checkbutton_used_17)
+checked_state_17.get()
+checkbutton_17.pack()
+
+checked_state_18 = tk.IntVar()
+checkbutton_18 = tk.Checkbutton(text="安全看視", variable=checked_state_18, command=checkbutton_used_18)
+checked_state_18.get()
+checkbutton_18.pack()
+
+checked_state_19 = tk.IntVar()
+checkbutton_19 = tk.Checkbutton(text="陪伴服務", variable=checked_state_19, command=checkbutton_used_19)
+checked_state_19.get()
+checkbutton_19.pack()
+
+checked_state_20 = tk.IntVar()
+checkbutton_20 = tk.Checkbutton(text="巡視服務", variable=checked_state_20, command=checkbutton_used_20)
+checked_state_20.get()
+checkbutton_20.pack()
+
+checked_state_21 = tk.IntVar()
+checkbutton_21 = tk.Checkbutton(text="居家喘息服務", variable=checked_state_21, command=checkbutton_used_21)
+checked_state_21.get()
+checkbutton_21.pack()
+
 list_to_string = ""  # 將使用者勾選的合約list轉成字串, 存到.txt中
 
 
@@ -95,6 +287,7 @@ def button_click():
     if num < 0 or num > 99:
         var.set("請輸入介於0~99的數字")
     else:
+        print(choose_contracts)
         var.set("")
         for contracts in choose_contracts:
             if contracts != "":
@@ -119,8 +312,8 @@ main_window.mainloop()
 
 # x = 0
 #
-#
-# def checkbutton_used():
+
+# def checkbutton_used(x, checked_state):
 #     if checkbutton.checked_state.get() == 1:
 #         choose_contracts[x] = contract_list[x]
 #     if checkbutton.checked_state.get() == 0:
@@ -133,4 +326,9 @@ main_window.mainloop()
 #     x += 1
 #     checked_state.get()
 #     checkbutton.pack()
+
+# checked_state = tk.IntVar()
+# checkbutton_8 = tk.Checkbutton(text="足部照護", variable=checked_state, command=checkbutton_used_8(8, checked_state))
+# checked_state.get()
+# checkbutton_8.pack()
 
